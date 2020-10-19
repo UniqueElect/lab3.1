@@ -22,7 +22,7 @@ int main()
 	cout << "1) y = " << y << endl;
 	// спосіб 2: розгалуження в повній формі
 	if (x < 0)
-		B = 1 / x + log(x * x);
+		B = (1 + 4 * x * x);
 	else
 		if (0 <= x && x <= 2)
 			B = exp(x) + (fabs(x * x));
